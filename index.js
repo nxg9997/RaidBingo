@@ -4,12 +4,16 @@
 
     document.querySelectorAll('td').forEach(td => {
         td.addEventListener('click', () => {
-          const x = td.querySelector('.class-x');
-          if (x) {
+            const x = td.querySelector('.class-x');
+            if (x) {
             x.classList.toggle('visible-x');
-          }
+            }
         });
-      });
+    });
+
+    document.querySelector("button").onclick = (e) => {
+        document.body.classList.toggle("streamer-mode")
+    }
 
     // load the bingo card
     fetch("./bingo_cells.txt").then(res => res.text()).then(res => {
