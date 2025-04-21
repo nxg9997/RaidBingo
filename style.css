@@ -1,0 +1,53 @@
+html {
+    background-color: greenyellow;
+    font-family: "Roboto", sans-serif;
+}
+
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 500px;
+    table-layout: fixed;
+}
+
+td {
+    height: 100px;
+    margin: 5px;
+    aspect-ratio: 1 / 1;
+    vertical-align: middle;
+    position: relative;
+}
+
+.card {
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    padding: 5px;
+}
+
+.class-x {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    font-size: 5em;       /* makes the "X" huge */
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.5); /* subtle watermark look */
+    text-align: center;
+    line-height: 100px;   /* vertically center the "X" */
+    
+    z-index: 1;           /* behind .card */
+    pointer-events: none; /* makes the "X" non-interactive */
+}
+
+.class-x.visible-x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
