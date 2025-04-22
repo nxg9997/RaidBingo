@@ -46,4 +46,6 @@ Creator Mentioned
 Tower?
 Can't Stun Champion
 Marathon Mentioned
-Bad Explaination
+Complicated Explanation
+Wrong Explanation
+Accidentally Starts Encounter
