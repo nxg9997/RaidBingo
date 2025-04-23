@@ -30,7 +30,7 @@ Contest Mode Mention
 RIP Flawless
 Missed the Flag
 AFK
-Fell of Map
+Fell off Map
 Malding
 Strange Callouts
 "Pull Me"
@@ -50,3 +50,6 @@ Complicated Explanation
 Wrong Explanation
 Accidentally Starts Encounter
 No Exotic
+Kick Player
+Leader Leaves
+Background Noise
